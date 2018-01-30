@@ -180,7 +180,9 @@ text-shadow:
 	 white -1.4px 1.4px; 
 	font-weight:bold;
 	font-size:15px;
+	
 	background:rgba(255,255,255,0.6);
+	border-radius:0px 0px 8px 8px;
 
 	
 }
@@ -869,7 +871,7 @@ if($(window).width()>500&&repeats>0&&$("body").hasClass("ckb_notify")){
 if (('Notification' in window)) {
 if (Notification.permission == "granted") {
     var n = new Notification("["+mons.name+"] "+type+"!", {
-		body: ,//"["+mons.loc+"] "+mons.race+"/"+mons.attr+"/"+mons.size,
+		body: "",//"["+mons.loc+"] "+mons.race+"/"+mons.attr+"/"+mons.size,
 		icon: "img/"+mons.img+".jpg",
 });
 n.onshow = function(){setTimeout(n.close.bind(n), 4000);}
