@@ -869,8 +869,8 @@ if($(window).width()>500&&repeats>0&&$("body").hasClass("ckb_notify")){
 if (('Notification' in window)) {
 if (Notification.permission == "granted") {
     var n = new Notification("["+mons.name+"] "+type+"!", {
-		body: "["+mons.loc+"] "+mons.race+"/"+mons.attr+"/"+mons.size,
-		icon: "img/"+mons.img+".png",
+		body: ,//"["+mons.loc+"] "+mons.race+"/"+mons.attr+"/"+mons.size,
+		icon: "img/"+mons.img+".jpg",
 });
 n.onshow = function(){setTimeout(n.close.bind(n), 4000);}
 }else{
