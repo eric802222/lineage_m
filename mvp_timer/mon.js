@@ -48,12 +48,12 @@ mvp:"2h"
 lv:8,
 name:"樹精",
 img:"樹精",
-time:120,
+time:180,
 race:"",
 attr:"",
 size:"",
 loc:"",
-mvp:"2h"
+mvp:"3h"
 },
 {
 lv:8,
